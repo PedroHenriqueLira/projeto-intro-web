@@ -102,21 +102,27 @@ footer p{
     .ajeitando{
         font-size: 14px;
     }
-}
-  
-  @media screen and (max-device-width : 517px) {
-  
-    .blocoDeCarros
-     {
-      width: 22em;
-      height: 6em;
+    .titulo{
+        font-size : 25px;
     }
-  
-    .tamanhoCarro {
-      height: 7em;
+}
 
+@media screen and (max-device-width : 517px) {
+    
+    .blocoDeCarros
+    {
+        width: 22em;
+        height: 6em;
+    }
+    
+    .tamanhoCarro {
+        height: 7em;
+        
     }
     .ajeitando{
         font-size: 10px;
     }
-  }
+    .titulo{
+        font-size : 20px;
+    }
+}
