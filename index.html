@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto intro Web</title>
+<script src="script.js" defer></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Garagem dos Venenos </h1>
+    </header>
+    <main>
+        <div class="pesquisa">
+            <!--  <input type="text" id="caixa-pesquisa" class="search-txt" placeholder="Buscar carro🔎" value=""> -->
+            <button onclick="pesquisar()">Buscar
+                <input id="botao-pesquisa" onkeyup="buscar_car()" type="text"
+        name="search" placeholder="Buscar carro🔎">
+            </button>
+        </div>
+        <div id="carrinhos" class="car">
+            <section id="caixa-1" class="caixa">
+                <!-- <img src="./img/Maverick.png" alt="">
+                <ul>
+                    <li>Carro: Maverick</li>
+                    <li>Cavalos: 199cv</li>
+                    <a href="https://pt.wikipedia.org/wiki/Ford_Maverick">saiba mais</a>
+                </ul> -->
+            <!-- </section>
+            <section id="caixa-2" class="caixa"><img src="./img/Chevette.png" alt=""> -->
+                <!-- <ul>
+                    <li>Carro: Chevette</li>
+                    <li>Cavalos: 86cv</li>
+                    <a href="https://pt.wikipedia.org/wiki/Chevrolet_Chevette">saiba mais</a>
+                </ul> -->
+            <!-- </section>
+            <section id="caixa-3" class="caixa"><img src="./img/Opala.png" alt="">
+                <ul>
+                    <li>Carro: Opala</li>
+                    <li>Cavalos: 171cv</li>
+                    <a href="https://pt.wikipedia.org/wiki/Chevrolet_Opala">saiba mais</a>
+                </ul> -->
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p><a href="https://github.com/PedroHenriqueLira" target="_blank"><img
+            src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+            alt=""></a></p>
+    </footer>
+</body>
+</html>
